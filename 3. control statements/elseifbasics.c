@@ -41,6 +41,19 @@ int main()
     
     f = (n > 5 ? (n <=10 ? 100:200): 500);
     printf("%d\n", n);
+
+    int n;
+	
+	  printf("Enter an integer:\n\n");
+	  scanf("%d", &n);
+	
+	  if (n % 2 ==0 && n % 3 ==0 ){
+		  printf("The number is divisible by both 2 and 3");
+	  }
+	
+	  else {
+		printf("The number is not divisible by both 2 and 3");
+	  }
     
     return 0;
   

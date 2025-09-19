@@ -20,7 +20,29 @@ int main()
     case 6 : printf("statement6") ;
                   break ; 
     default : printf("default") ;
-    }            
+    }     
+    
+    int num ;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    switch (num)
+    {
+    case 1:
+        printf("I am in case 1\n");
+        break;
+    case 2:
+        printf("I am in case 2\n");
+        break ;
+    case 3:
+        printf("I am in case 2\n");
+        break ;
+
+    default:
+        printf("I am in default!!");
+        break ;
+    }
 
     return 0;
 }
